@@ -1,0 +1,20 @@
+user@computer:~$ python ideabank.py
+What is your new idea: I could make a coffee maker that can also add ice to the coffee.
+
+Your ideabank:
+1. I could make a coffee maker that can also add ice to the coffee.
+
+user@computer:~$ python ideabank.py
+What is your new idea: Paint my dog to grey and say everyone that I have a wolf.
+
+Your ideabank:
+1. I could make a coffee maker that can also add ice to the coffee.
+2. Paint my dog to grey and say everyone that I have a wolf.
+
+user@computer:~$ python ideabank.py --delete 1
+Your ideabank:
+1. Paint my dog to grey and say everyone that I have a wolf.
+
+user@computer:~$ cat ideabank.txt
+Paint my dog to grey and say everyone that I have a wolf.
+user@computer:~$

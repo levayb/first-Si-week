@@ -1,0 +1,13 @@
+user@computer:~$ python fibonacci.py
+
+Fibonacci sequance:
+1:                        0
+2:                        1
+...
+10:                      34
+11:                      55
+..
+100:  927372692193078999176
+101: 1500520536206896083277
+
+user@computer:~$
