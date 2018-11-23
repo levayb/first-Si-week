@@ -1,0 +1,38 @@
+user@computer:~$ python risk_dice1.py
+How many units attack: 3
+How many units defend: 3
+How many units defend: pizza
+How many units defend: 0
+How many units defend: 1
+
+Dice:
+  Attacker: 5-4-1
+  Defender: 6
+
+Outcome:
+  Attacker: Lost 1 unit
+  Defender: Lost 0 units
+
+user@computer:~$ python risk_dice1.py
+How many units attack: 2
+How many units defend: 2
+
+Dice:
+  Attacker: 6-1
+  Defender: 4-2
+
+Outcome:
+  Attacker: Lost 1 unit
+  Defender: Lost 1 unit
+
+user@computer:~$ python risk_dice1.py
+How many units attack: 1
+How many units defend: 2
+
+Dice:
+  Attacker: 2
+  Defender: 4-2
+
+Outcome:
+  Attacker: Lost 1 unit
+  Defender: Lost 0 units
