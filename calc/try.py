@@ -97,14 +97,31 @@ should return [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.'''
 
 
 def find_multiples(integer, limit):
+    result = [integer]
+    constans = integer
+    while integer != limit:
+        integer += constans
+        result.append(integer)
+    return result
 
 
-    
+    # result = [integer]
+    # constans = integer
+    # while integer <= limit:
+    #     integer += constans
+    #     result.append(integer)
+    # del result[-1]
+    # return result
 
+    # lst = []
+    # for i in range(integer, (limit + 1), integer):
+    #     if i <= limit:
+    #         lst.append(i)
+    # return lst
 
 def main():
     os.system('clear')
-    print(get_age("1 year old"))
+    print(find_multiples(5, 25))
 
 
 if __name__ == "__main__":

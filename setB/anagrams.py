@@ -9,3 +9,13 @@ words which are anagrams in separated lines.
 
 You can use for testing this sample file: anagrams.csv
 '''
+
+def 
+
+
+def main():
+    print(count_arara(24))
+
+
+if __name__ == "__main__":
+    main()
